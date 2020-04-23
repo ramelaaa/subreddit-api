@@ -63,3 +63,7 @@ This app uses Node JS with Snoowrap library
 
 ## Production Link on Heroku
 
+https://subreddit-api-dg.herokuapp.com/api/v1/getSubreddit/:subreddit
+
+Sample request : https://subreddit-api-dg.herokuapp.com/api/v1/getSubreddit/News
+
