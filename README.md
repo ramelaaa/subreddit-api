@@ -4,7 +4,7 @@ This app allows to retrieve the top articles from a given subreddit
 
 ## Run locally
 
-### Create an app on reddit web page 
+### Create an app on reddit web page and get information for .env file
 
 https://www.reddit.com/dev/api/
 
