@@ -10,10 +10,12 @@ https://www.reddit.com/dev/api/
 
 ### Add a .env file and add below information
 
+```
 CLIENT_ID=
 CLIENT_SECRET=
 REDDIT_USER=
 REDDIT_PASS=
+```
 
 ## Install
 ```
