@@ -28,8 +28,28 @@ npm install
 npm start
 ```
 
-Then browse to `localhost:4000`
+Rest End point: `http://localhost:4000/api/v1/getSubreddit/:subreddit`
 
+Sample request: `http://localhost:4000/api/v1/getSubreddit/News`
+
+Sample response: 
+
+```
+[
+    {
+        "id": "dfn3yi",
+        "url": "https://www.thedailybeast.com/blizzard-employees-staged-a-walkout-to-protest-banned-pro-hong-kong-gamer",
+        "title": "Blizzard Employees Staged a Walkout After the Company Banned a Gamer for Pro-Hong Kong Views",
+        "author": "t2_167ibb"
+    },
+    {
+        "id": "eubjfc",
+        "url": "https://www.fox5dc.com/news/kobe-bryant-killed-in-helicopter-crash-in-california-tmz-reports",
+        "title": "Kobe Bryant killed in helicopter crash in California",
+        "author": "t2_6eq99"
+    },
+]
+```
 
 ## Run Tests
 
@@ -39,7 +59,7 @@ npm test
 
 ## About
 
-This app uses Node JS
+This app uses Node JS with Snoowrap library 
 
 ## Production Link on Heroku
 
