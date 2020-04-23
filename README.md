@@ -6,7 +6,9 @@ This app allows to retrieve the top articles from a given subreddit
 
 ### Create an app on reddit web page and get information for .env file
 
+```
 https://www.reddit.com/dev/api/
+```
 
 ### Add a .env file and add below information
 
@@ -17,12 +19,12 @@ REDDIT_USER=
 REDDIT_PASS=
 ```
 
-## Install
+### Install
 ```
 npm install
 ```
 
-## Run
+### Run
 
 ```
 npm start
@@ -51,7 +53,7 @@ Sample response:
 ]
 ```
 
-## Run Tests
+### Run Tests
 
 ```
 npm test
@@ -61,9 +63,12 @@ npm test
 
 This app uses Node JS with Snoowrap library 
 
-## Production Link on Heroku
+### Production Link on Heroku
 
+```
 https://subreddit-api-dg.herokuapp.com/api/v1/getSubreddit/:subreddit
-
+```
+```
 Sample request : https://subreddit-api-dg.herokuapp.com/api/v1/getSubreddit/News
+```
 
