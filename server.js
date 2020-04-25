@@ -2,7 +2,7 @@ const express   = require('express');
 const app = express(); 
 
 const subredditRoutes = require('./app/routes/subreddit');
-const HttpError = require('./models/http-error');
+const HttpError = require('./app/models/http-error');
 
 app.use(function(req, res, next) {
     res.header("Access-Control-Allow-Origin", "*");
