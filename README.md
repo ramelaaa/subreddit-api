@@ -30,9 +30,9 @@ npm install
 npm start
 ```
 
-Rest End point: `http://localhost:4000/api/v1/getSubreddit/:subreddit`
+Rest End point: `http://localhost:4000/api/v1/subreddits/:subreddit`
 
-Sample request: `http://localhost:4000/api/v1/getSubreddit/News`
+Sample request: `http://localhost:4000/api/v1/subreddits/News`
 
 Sample response: 
 
@@ -66,9 +66,9 @@ This app uses Node JS with Snoowrap library
 ### Production Link on Heroku
 
 ```
-https://subreddit-api-dg.herokuapp.com/api/v1/getSubreddit/:subreddit
+https://subreddit-api-dg.herokuapp.com/api/v1/subreddits/:subreddit
 ```
 ```
-Sample request : https://subreddit-api-dg.herokuapp.com/api/v1/getSubreddit/News
+Sample request : https://subreddit-api-dg.herokuapp.com/api/v1/subreddits/News
 ```
 

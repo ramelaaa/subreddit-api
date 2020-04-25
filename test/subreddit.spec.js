@@ -18,14 +18,14 @@ describe("when stubbed", () => {
   afterEach(() => {
     request.get.restore();
   });
-  describe("Testing the GET API /api/v1/getSubreddit/:subreddit", () => {
+  describe("Testing the GET API /api/v1/subreddits/:subreddit", () => {
     it("should return all subreddit", (done) => {
       this.get.yields(null, responseObject, JSON.stringify(subreddits));
-      request.get(`/api/v1/getSubreddit/test`, (err, res, body) => {
+      request.get(`/api/v1/subreddits/test`, (err, res, body) => {
         // there should be a 200 status code
-		res.statusCode.should.eql(200);
-		res.headers['content-type'].should.contain('application/json');
-		done();
+        res.statusCode.should.eql(200);
+        res.headers["content-type"].should.contain("application/json");
+        done();
       });
     });
   });

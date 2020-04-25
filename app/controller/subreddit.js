@@ -9,7 +9,7 @@ const client = new Snoowrap({
 	password: process.env.REDDIT_PASS
 });
 
-exports.getSubreddit = (req, res, next) => {
+exports.getSubreddits = (req, res, next) => {
 	var subreddit = req.params.subreddit;
 	client.getSubreddit(subreddit)
 		  .getTop({time: 'all'})
