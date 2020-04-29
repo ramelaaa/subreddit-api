@@ -5,14 +5,13 @@ const client = new Snoowrap({
 	userAgent: 'subreddit-api',
 	clientId: process.env.CLIENT_ID,
 	clientSecret: process.env.CLIENT_SECRET,
-	username: process.env.REDDIT_USER,
-	password: process.env.REDDIT_PASS
+	refreshToken: process.env.REFRESH_TOKEN
 });
 
 exports.getSubreddits = (req, res, next) => {
 	var subreddit = req.params.subreddit;
 	client.getSubreddit(subreddit)
-		  .getTop({time: 'all'})
+		  .getTop({time: 'week'})
 		  .map(post => {
 				return {
 					id: post.id,
