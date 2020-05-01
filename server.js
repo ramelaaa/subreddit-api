@@ -4,9 +4,9 @@ const app = express();
 const subredditRoutes = require('./app/routes/subreddit');
 const HttpError = require('./app/models/http-error');
 
-// const cors = require('cors')
+const cors = require('cors');
 
-// app.use(cors())
+app.use(cors({ origin: true }));
 
 // app.use(function(req, res, next) {
 //     res.header("Access-Control-Allow-Origin", "localhost:3000");
