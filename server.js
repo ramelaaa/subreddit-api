@@ -7,7 +7,7 @@ const HttpError = require('./app/models/http-error');
 const cors = require('cors');
 
 var corsOptions = {
-  origin: 'http://example.com',
+  origin: 'http://localhost:3000',
   optionsSuccessStatus: 200 // some legacy browsers (IE11, various SmartTVs) choke on 204
 }
 
