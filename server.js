@@ -6,9 +6,9 @@ const HttpError = require('./app/models/http-error');
 
 app.use(function(req, res, next) {
     res.setheader("Access-Control-Allow-Origin", "*");
-    res.setHeader('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE');
+    res.Header('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE');
     res.setheader("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
-    res.setHeader('Access-Control-Allow-Credentials', true);
+    res.Header('Access-Control-Allow-Credentials', true);
     if ('OPTIONS' == req.method) {
       res.sendStatus(200);
     }
