@@ -6,7 +6,12 @@ const HttpError = require('./app/models/http-error');
 
 const cors = require('cors');
 
-app.use(cors({ origin: true }));
+var corsOptions = {
+  origin: 'http://example.com',
+  optionsSuccessStatus: 200 // some legacy browsers (IE11, various SmartTVs) choke on 204
+}
+
+app.use(cors(corsOptions));
 
 // app.use(function(req, res, next) {
 //     res.header("Access-Control-Allow-Origin", "localhost:3000");
