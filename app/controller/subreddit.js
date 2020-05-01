@@ -19,9 +19,10 @@ exports.getSubreddits = (req, res, next) => {
 					id: post.id,
 					url: post.url,
 					title: post.title,
-					public_description: post.public_description,
-					subscribers: post.subscribers,
-					author: post.author_fullname
+					// public_description: post.public_description,
+					// subscribers: post.subscribers,
+					author: post.author_fullname,
+					score: post.score
 				};
 		}).then(topPostUrlAndTitle => res.json(topPostUrlAndTitle)
 		 ).catch(err => {throw new Error(err); });
