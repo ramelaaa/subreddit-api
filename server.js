@@ -3,7 +3,6 @@ const app = express();
 
 const subredditRoutes = require('./app/routes/subreddit');
 const HttpError = require('./app/models/http-error');
-}
 
 app.use(function(req, res, next) {
     res.header("Access-Control-Allow-Origin", "localhost:3000");
