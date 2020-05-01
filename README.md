@@ -72,3 +72,9 @@ https://subreddit-api-dg.herokuapp.com/api/v1/subreddits/:subreddit
 Sample request : https://subreddit-api-dg.herokuapp.com/api/v1/subreddits/News
 ```
 
+## Credit
+Original Owner: [dgundogan](https://github.com/dgundogan)
+<br>
+License: [MIT](https://github.com/dgundogan/subreddit-api/blob/master/LICENSE)
+<br>
+Edits have been made in app/contoller/subreddit.js
