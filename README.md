@@ -73,8 +73,7 @@ Sample request : https://mysubreddit.herokuapp.com/api/v1/subreddits/News
 ```
 
 ## Credit
-Original Owner: [dgundogan](https://github.com/dgundogan)
-<br>
+Original Owner: dgundogan
 License: [MIT](https://github.com/dgundogan/subreddit-api/blob/master/LICENSE)
 <br>
 Edits have been made in app/contoller/subreddit.js
