@@ -6,7 +6,7 @@ const HttpError = require('./app/models/http-error');
 
 const cors = require('cors');
 
-app.use(cors({ origin: false }));
+app.use(cors({ origin: true }));
 
 // app.use(function(req, res, next) {
 //     res.header("Access-Control-Allow-Origin", "localhost:3000");
