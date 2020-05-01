@@ -66,10 +66,10 @@ This app uses Node JS with Snoowrap library
 ### Production Link on Heroku
 
 ```
-https://subreddit-api-dg.herokuapp.com/api/v1/subreddits/:subreddit
+https://mysubreddit.herokuapp.com/api/v1/subreddits/:subreddit
 ```
 ```
-Sample request : https://subreddit-api-dg.herokuapp.com/api/v1/subreddits/News
+Sample request : https://mysubreddit.herokuapp.com/api/v1/subreddits/News
 ```
 
 ## Credit
